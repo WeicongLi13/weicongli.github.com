@@ -1,0 +1,571 @@
+NS density: complete source recheck
+Checking NSDensity/Basic.lean
+'NSDensity.densityZero_of_approximation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.densityZero_of_count_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+Checking NSDensity/Arithmetic.lean
+Checking NSDensity/Sieve.lean
+Checking NSDensity/Tails.lean
+Checking NSDensity/Inputs.lean
+Checking NSDensity/Constructions.lean
+Checking NSDensity/SquareTails.lean
+Checking NSDensity/FixedPair.lean
+Checking NSDensity/FourFamilies.lean
+Checking NSDensity/ESArithmetic.lean
+Checking NSDensity/ESWitnessComplete.lean
+'NSDensity.ESWitness.equallySpaced' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.equallySpaced_iff_exists_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+Checking NSDensity/ESFixed.lean
+Checking NSDensity/ESDensity.lean
+Checking NSDensity/Classification.lean
+Checking NSDensity/ESClosure.lean
+'NSDensity.EquallySpaced.of_derived' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.EquallySpaced.of_classificationPath' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.EquallySpaced.of_derived_length_ge_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+Checking NSDensity/FHLXOriginal.lean
+'NSDensity.FHLXOriginalClassificationInput.toFHLXInput' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.FHLXOriginalInput.nonstandard_iff_originalDerived' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.FHLXOriginalInput.nonstandard_iff_derived' depends on axioms: [propext, Classical.choice, Quot.sound]
+Checking NSDensity/Reduction.lean
+Checking NSDensity/Cover.lean
+Checking NSDensity/Relative.lean
+Checking NSDensity/Main.lean
+'NSDensity.density_zero_fixed_characteristic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.exceptional_count_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.standard_lengths_relative_density_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+Checking NSDensity/ConcreteDescent.lean
+Checking NSDensity/CodeModelColumns.lean
+Checking NSDensity/CodeModelAffine.lean
+Checking NSDensity/CodeModelStandard.lean
+Checking NSDensity/CodeModelGenerated.lean
+Checking NSDensity/StandardGroup.lean
+'NSDensity.Concrete.standardGroup_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.Concrete.standardGroup_eq_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.Concrete.cyclicShift_eq_finRotate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.Concrete.affinePerm_conjugate_standard_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.Concrete.nonstandardRootCode_pow_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.Concrete.nonstandardRootCode_same_order_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+Checking NSDensity/CodeLinearGroup.lean
+'NSDensity.Concrete.columnLinearGroupEquiv_permutationAutGroup' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NSDensity.Concrete.rootLinearGroupEquiv_permutationAutGroup' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.Concrete.rootLinearGroupEquiv_standard_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+Checking NSDensity/CodeLifting.lean
+'NSDensity.Concrete.lifting_permutationAutGroup_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.Concrete.liftingPermutationAutEquiv_standard_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.Concrete.liftingRootLinearGroupEquiv_coordinate_standard_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NSDensity.Concrete.liftingRootLinearGroupEquiv_standard_maps_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Checking NSDensity/ConcreteDuality.lean
+Checking NSDensity/ConcreteCyclic.lean
+Checking NSDensity/ConcreteIrreducible.lean
+Checking NSDensity/AbstractRepresentation.lean
+Checking NSDensity/CodePolynomial.lean
+Checking NSDensity/CodeTrace.lean
+Checking NSDensity/CodeMinimalIdeal.lean
+Checking NSDensity/CodeWordQuotient.lean
+Checking NSDensity/CodeIdeal.lean
+'NSDensity.Concrete.mem_irreducibleCyclicIdeal_iff_inverse_functional_word' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NSDensity.Concrete.mem_irreducibleCyclicIdeal_iff_trace_word' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NSDensity.Concrete.polynomialCyclicCode_eq_rootFunctionalCode' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NSDensity.Concrete.polynomialCyclicCode_eq_inverseRootTraceCode' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Checking NSDensity/ConcretePairs.lean
+Checking NSDensity/CodeSemantics.lean
+'NSDensity.Concrete.nonstandardRootCode_iff_code_permutation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.codeNonstandard_iff_cyclicCodeWitness' depends on axioms: [propext, Classical.choice, Quot.sound]
+Checking NSDensity/CodeFieldTransport.lean
+'NSDensity.Concrete.mem_functionalCode_coefficient_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.Concrete.preserves_functionalCode_coefficient_image' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NSDensity.Concrete.rootFunctionalCodeOver_algEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+Checking NSDensity/RealDensity.lean
+'NSDensity.densityZero_iff_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.densityZero_iff_tendsto_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.relativeDensityZero_iff_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.relativeDensityOne_iff_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+Checking NSDensity/LittleO.lean
+'NSDensity.densityZero_iff_isLittleO' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.densityZero_iff_isLittleO_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+Checking NSDensity/MainReal.lean
+'NSDensity.exceptional_real_proportion_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.exceptional_real_count_isLittleO' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.standard_real_relative_proportion_tendsto_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+Checking NSDensity/ConcreteMain.lean
+'NSDensity.codeNonstandard_descent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.exceptionalLengths_eq_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.concrete_density_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.concrete_density_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.concrete_count_isLittleO' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.concrete_standard_relative_density_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+Checking NSDensity/PaperPairs.lean
+'NSDensity.codeNonstandard_iff_paper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.paper_nonstandard_descent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.paper_exceptionalLengths_eq_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+Checking NSDensity/FieldModelIndependence.lean
+'NSDensity.Concrete.nonstandardRootCode_model_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.codeNonstandard_iff_fixed_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.paperNonstandard_iff_fixed_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+Checking NSDensity/AlphabetDescent.lean
+'NSDensity.exists_subfield_card_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.paper_nonstandard_descent_exponent' depends on axioms: [propext, Classical.choice, Quot.sound]
+Checking NSDensity/AbstractCodes.lean
+'NSDensity.paperNonstandard_to_abstract' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.functionalCodeOver_nonstandard_to_paper' depends on axioms: [propext, Classical.choice, Quot.sound]
+Checking NSDensity/PaperMain.lean
+'NSDensity.paper_density_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.paper_density_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.paper_count_isLittleO' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.paper_standard_relative_density_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.paper_standard_prime_iff_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+Checking NSDensity/PaperCorollary.lean
+'NSDensity.paperRatio_sup_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.paperRatio_prime_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.paperRatio_sup_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+Checking NSDensity/FHLXPaper.lean
+'NSDensity.paper_unrestrictedDescentRule' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.paper_original_nonstandard_iff_normalForm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.paper_original_density_main' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.paper_original_standard_relative_density_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+Checking NSDensity/AbstractMain.lean
+'NSDensity.abstractNonstandard_iff_paper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.abstract_density_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.abstract_density_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.abstract_count_isLittleO' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.allCodesStandard_relative_density_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.abstractRatio_sup_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.abstractRatio_sup_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+Checking NSDensity/AbstractCharacteristic.lean
+'NSDensity.abstract_nonstandard_descent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.abstract_prime_power_union_eq_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.allCodesStandardLengths_charP' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.characteristicStandardLengths_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.characteristic_standard_relative_density_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.abstract_density_main' depends on axioms: [propext, Classical.choice, Quot.sound]
+Checking NSDensity.lean
+Checking Audit.lean
+def NSDensity.DensityZero : Set ℕ → Prop :=
+fun A => ∀ (ε : ℚ), 0 < ε → ∃ N, ∀ (X : ℕ), N ≤ X → ↑(NSDensity.count A X) ≤ ε * ↑X
+def NSDensity.WiertelakMoreeInput : Prop :=
+∀ (b h : ℕ), 1 < b → 1 < h → NSDensity.ReciprocalDiverges (NSDensity.OrderPrimes b h)
+def NSDensity.FHLXInput : (ℕ → ℕ → Prop) → Prop :=
+fun NS =>
+  ∀ (p : ℕ),
+    Nat.Prime p →
+      ∀ (n f : ℕ),
+        0 < n →
+          p.Coprime n →
+            0 < f →
+              NS n (p ^ f) →
+                ∃ a e, NSDensity.Initial p a e ∧ Relation.ReflTransGen (NSDensity.ClassificationStep p) (a, e) (n, f)
+def NSDensity.CodeNonstandard : ℕ → ℕ → Prop :=
+fun n q => ∃ E fieldE, NSDensity.CodeNonstandardOver E n q
+def NSDensity.CodeNonstandardOver : (E : Type) → [Field E] → ℕ → ℕ → Prop :=
+fun E [Field E] n q => Finite E ∧ ∃ F, Finite ↥F ∧ Nat.card ↥F = q ∧ NSDensity.Concrete.nonstandardPair F n
+def NSDensity.Concrete.nonstandardPair.{u_1} : {E : Type u_1} → [inst : Field E] → Subfield E → ℕ → Prop :=
+fun {E} [Field E] F n => ∃ a, orderOf a = n ∧ NSDensity.Concrete.nonstandardRootCode F n a
+def NSDensity.Concrete.nonstandardRootCode.{u_1} : {E : Type u_1} → [inst : Field E] → Subfield E → ℕ → E → Prop :=
+fun {E} [Field E] F n a =>
+  ∃ σ, NSDensity.Concrete.preservesRelations F (fun i => a ^ ↑i) σ ∧ ¬NSDensity.Concrete.affinePermutation n σ
+def NSDensity.Concrete.relationCode.{u_1, u_2} : {E : Type u_1} →
+  [inst : Field E] → {I : Type u_2} → [Fintype I] → (F : Subfield E) → (I → E) → Submodule (↥F) (I → ↥F) :=
+fun {E} [Field E] {I} [Fintype I] F v =>
+  { carrier := {c | ∑ i, ↑(c i) * v i = 0}, add_mem' := ⋯, zero_mem' := ⋯, smul_mem' := ⋯ }
+def NSDensity.Concrete.rootFunctionalCode.{u_1} : {E : Type u_1} →
+  [inst : Field E] → (F : Subfield E) → (n : ℕ) → E → Submodule (↥F) (Fin n → ↥F) :=
+fun {E} [Field E] F n a => NSDensity.Concrete.functionalCode F fun i => a ^ ↑i
+def NSDensity.Concrete.irreducibleCyclicCode.{u_1} : {F : Type u_1} →
+  [inst : Field F] → {n : ℕ} → Submodule F (Fin n → F) → Prop :=
+fun {F} [Field F] {n} C =>
+  C ≠ ⊥ ∧ NSDensity.Concrete.cyclicCode C ∧ ∀ D ≤ C, NSDensity.Concrete.cyclicCode D → D = ⊥ ∨ D = C
+def NSDensity.Concrete.nondegenerateCode.{u_1} : {F : Type u_1} →
+  [inst : Field F] → {n : ℕ} → Submodule F (Fin n → F) → Prop :=
+fun {F} [Field F] {n} C => ∀ (i j : Fin n), i ≠ j → ∃ w ∈ C, w i ≠ w j
+def NSDensity.NonstandardCyclicCodeWitness : (E : Type) → [Field E] → ℕ → ℕ → Prop :=
+fun E [Field E] n q =>
+  Finite E ∧
+    ∃ F,
+      Finite ↥F ∧
+        Nat.card ↥F = q ∧
+          ∃ a,
+            orderOf a = n ∧
+              NSDensity.Concrete.irreducibleCyclicCode (NSDensity.Concrete.rootFunctionalCode F n a) ∧
+                NSDensity.Concrete.nondegenerateCode (NSDensity.Concrete.rootFunctionalCode F n a) ∧
+                  ∃ σ,
+                    NSDensity.Concrete.preservesCode F (NSDensity.Concrete.rootFunctionalCode F n a) σ ∧
+                      ¬NSDensity.Concrete.standardPermutation q n σ
+def NSDensity.Concrete.standardPermutation : ℕ → (n : ℕ) → Equiv.Perm (Fin n) → Prop :=
+fun q n σ => ∃ j b, ∀ (i : Fin n), ↑↑(σ i) = ↑q ^ j * ↑↑i + b
+@[reducible] def NSDensity.ConcreteFHLXInput : Prop :=
+NSDensity.FHLXInput NSDensity.CodeNonstandard
+def NSDensity.Concrete.irreducibleCyclicIdeal.{u_1} : {E : Type u_1} →
+  [inst : Field E] → (F : Subfield E) → (n : ℕ) → E → Ideal (AdjoinRoot (Polynomial.X ^ n - 1)) :=
+fun {E} [Field E] F n a =>
+  Ideal.span (Set.singleton ((AdjoinRoot.mk (Polynomial.X ^ n - 1)) ((Polynomial.X ^ n - 1) / minpoly (↥F) a)))
+def NSDensity.Concrete.polynomialCyclicCode.{u_1} : {E : Type u_1} →
+  [inst : Field E] → (F : Subfield E) → (n : ℕ) → E → Submodule (↥F) (Fin n → ↥F) :=
+fun {E} [Field E] F n a =>
+  Submodule.comap (NSDensity.Concrete.wordQuotient (↥F) n)
+    (Submodule.restrictScalars (↥F) (NSDensity.Concrete.irreducibleCyclicIdeal F n a))
+def NSDensity.PaperNonstandard : ℕ → ℕ → Prop :=
+fun n q => ∃ E fieldE, NSDensity.PaperNonstandardOver E n q
+def NSDensity.PaperNonstandardOver : (E : Type) → [Field E] → ℕ → ℕ → Prop :=
+fun E [Field E] n q =>
+  Finite E ∧
+    ∃ F,
+      Finite ↥F ∧
+        Nat.card ↥F = q ∧
+          ∃ a,
+            orderOf a = n ∧
+              ∃ σ,
+                NSDensity.Concrete.preservesCode F (NSDensity.Concrete.polynomialCyclicCode F n a) σ ∧
+                  ¬NSDensity.Concrete.standardPermutation q n σ
+@[reducible] def NSDensity.PaperFHLXInput : Prop :=
+NSDensity.FHLXInput NSDensity.PaperNonstandard
+@NSDensity.density_zero_fixed_characteristic : ∀ {NS : ℕ → ℕ → Prop},
+  NSDensity.FHLXInput NS →
+    NSDensity.WiertelakMoreeInput → ∀ {p : ℕ}, Nat.Prime p → NSDensity.DensityZero (NSDensity.ExceptionalLengths NS p)
+@NSDensity.exceptional_count_le : ∀ {NS : ℕ → ℕ → Prop},
+  NSDensity.FHLXInput NS →
+    NSDensity.WiertelakMoreeInput →
+      ∀ {p : ℕ},
+        Nat.Prime p →
+          ∀ {ε : ℚ}, 0 < ε → ∃ N, ∀ (X : ℕ), N ≤ X → ↑(NSDensity.count (NSDensity.ExceptionalLengths NS p) X) ≤ ε * ↑X
+@NSDensity.density_zero_fixed_alphabet : ∀ {NS : ℕ → ℕ → Prop},
+  NSDensity.FHLXInput NS →
+    NSDensity.WiertelakMoreeInput →
+      ∀ {p r : ℕ}, Nat.Prime p → 0 < r → NSDensity.DensityZero {n | 0 < n ∧ p.Coprime n ∧ NS n (p ^ r)}
+@NSDensity.standard_lengths_relative_density_one : ∀ {NS : ℕ → ℕ → Prop},
+  NSDensity.FHLXInput NS →
+    NSDensity.WiertelakMoreeInput →
+      ∀ {p : ℕ}, Nat.Prime p → NSDensity.RelativeDensityOne (NSDensity.StandardLengths NS p) {n | p.Coprime n}
+@NSDensity.codeNonstandard_descent : ∀ {p r n : ℕ},
+  Nat.Prime p → 0 < r → NSDensity.CodeNonstandard n (p ^ r) → NSDensity.CodeNonstandard n p
+@NSDensity.exceptionalLengths_eq_prime : ∀ {p : ℕ},
+  Nat.Prime p → NSDensity.ExceptionalLengths NSDensity.CodeNonstandard p = NSDensity.PrimeExceptionalLengths p
+@NSDensity.codeNonstandard_iff_cyclicCodeWitness : ∀ {n q : ℕ},
+  0 < n → q.Coprime n → (NSDensity.CodeNonstandard n q ↔ ∃ E fieldE, NSDensity.NonstandardCyclicCodeWitness E n q)
+NSDensity.concrete_density_zero : NSDensity.ConcreteFHLXInput →
+  NSDensity.WiertelakMoreeInput →
+    ∀ {p : ℕ}, Nat.Prime p → NSDensity.DensityZero (NSDensity.ExceptionalLengths NSDensity.CodeNonstandard p)
+NSDensity.concrete_density_limit : NSDensity.ConcreteFHLXInput →
+  NSDensity.WiertelakMoreeInput →
+    ∀ {p : ℕ},
+      Nat.Prime p →
+        Filter.Tendsto
+          (fun X => ↑(NSDensity.realCount (NSDensity.ExceptionalLengths NSDensity.CodeNonstandard p) X) / X)
+          Filter.atTop (nhds 0)
+NSDensity.concrete_count_isLittleO : NSDensity.ConcreteFHLXInput →
+  NSDensity.WiertelakMoreeInput →
+    ∀ {p : ℕ},
+      Nat.Prime p →
+        (fun X => ↑(NSDensity.realCount (NSDensity.ExceptionalLengths NSDensity.CodeNonstandard p) X)) =o[Filter.atTop]
+          fun X => X
+NSDensity.concrete_standard_relative_density_one : NSDensity.ConcreteFHLXInput →
+  NSDensity.WiertelakMoreeInput →
+    ∀ {p : ℕ},
+      Nat.Prime p →
+        Filter.Tendsto
+          (fun X =>
+            ↑(NSDensity.realCount (NSDensity.StandardLengths NSDensity.CodeNonstandard p) X) /
+              ↑(NSDensity.realCount {n | p.Coprime n} X))
+          Filter.atTop (nhds 1)
+@NSDensity.paper_exceptionalLengths_eq_prime : ∀ {p : ℕ},
+  Nat.Prime p → NSDensity.ExceptionalLengths NSDensity.PaperNonstandard p = NSDensity.PaperPrimeExceptionalLengths p
+NSDensity.paper_density_zero : NSDensity.PaperFHLXInput →
+  NSDensity.WiertelakMoreeInput →
+    ∀ {p : ℕ}, Nat.Prime p → NSDensity.DensityZero (NSDensity.ExceptionalLengths NSDensity.PaperNonstandard p)
+NSDensity.paper_density_limit : NSDensity.PaperFHLXInput →
+  NSDensity.WiertelakMoreeInput →
+    ∀ {p : ℕ},
+      Nat.Prime p →
+        Filter.Tendsto
+          (fun X => ↑(NSDensity.realCount (NSDensity.ExceptionalLengths NSDensity.PaperNonstandard p) X) / X)
+          Filter.atTop (nhds 0)
+NSDensity.paper_count_isLittleO : NSDensity.PaperFHLXInput →
+  NSDensity.WiertelakMoreeInput →
+    ∀ {p : ℕ},
+      Nat.Prime p →
+        (fun X => ↑(NSDensity.realCount (NSDensity.ExceptionalLengths NSDensity.PaperNonstandard p) X)) =o[Filter.atTop]
+          fun X => X
+NSDensity.paper_standard_relative_density_one : NSDensity.PaperFHLXInput →
+  NSDensity.WiertelakMoreeInput →
+    ∀ {p : ℕ},
+      Nat.Prime p →
+        Filter.Tendsto
+          (fun X =>
+            ↑(NSDensity.realCount (NSDensity.StandardLengths NSDensity.PaperNonstandard p) X) /
+              ↑(NSDensity.realCount {n | p.Coprime n} X))
+          Filter.atTop (nhds 1)
+'NSDensity.density_zero_fixed_characteristic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.exceptional_count_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.density_zero_fixed_alphabet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.standard_lengths_relative_density_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.classification_normalForm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.densityZero_equallySpaced' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.densityZero_otherLengths' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.Concrete.preservesRelations_iff_preserves_functionalCode_general' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NSDensity.Concrete.rootFunctionalCode_cyclic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.Concrete.rootFunctionalCode_separates_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.Concrete.rootFunctionalCode_is_nondegenerate_irreducible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NSDensity.Concrete.mem_relationCode_iff_minpoly_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.Concrete.rootCheck_dvd_X_pow_sub_one_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.Concrete.standardPermutation_iff_affine_automorphism' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NSDensity.codeNonstandard_iff_cyclicCodeWitness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.codeNonstandard_descent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.exceptionalLengths_eq_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.densityZero_iff_tendsto_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.densityZero_iff_isLittleO_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.concrete_density_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.prime_field_density_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.concrete_density_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.concrete_count_isLittleO' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.concrete_standard_relative_density_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.Concrete.functionalCode_eq_traceCode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.Concrete.mem_irreducibleCyclicIdeal_iff_trace_word' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NSDensity.Concrete.polynomialCyclicCode_eq_rootFunctionalCode' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NSDensity.Concrete.polynomialCyclicCode_eq_inverseRootTraceCode' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NSDensity.codeNonstandard_iff_paper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.paper_nonstandard_descent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.paper_exceptionalLengths_eq_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.paper_density_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.paper_density_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.paper_count_isLittleO' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.paper_standard_relative_density_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.paper_standard_prime_iff_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+structure NSDensity.FHLXOriginalInput (NS : ℕ → ℕ → Prop) : Prop
+number of parameters: 1
+fields:
+  NSDensity.FHLXOriginalInput.classification : NSDensity.FHLXOriginalClassificationInput NS
+  NSDensity.FHLXOriginalInput.initial_nonstandard : ∀ (p : ℕ),
+      Nat.Prime p → ∀ (a e : ℕ), NSDensity.FHLXInitial p a e → NS a (p ^ e)
+  NSDensity.FHLXOriginalInput.construction_nonstandard : ∀ (p : ℕ),
+      Nat.Prime p → ∀ (x y : NSDensity.Pair), NSDensity.FHLXStep p x y → NS x.1 (p ^ x.2) → NS y.1 (p ^ y.2)
+constructor:
+  NSDensity.FHLXOriginalInput.mk {NS : ℕ → ℕ → Prop} (classification : NSDensity.FHLXOriginalClassificationInput NS)
+    (initial_nonstandard : ∀ (p : ℕ), Nat.Prime p → ∀ (a e : ℕ), NSDensity.FHLXInitial p a e → NS a (p ^ e))
+    (construction_nonstandard :
+      ∀ (p : ℕ),
+        Nat.Prime p → ∀ (x y : NSDensity.Pair), NSDensity.FHLXStep p x y → NS x.1 (p ^ x.2) → NS y.1 (p ^ y.2)) :
+    NSDensity.FHLXOriginalInput NS
+def NSDensity.FHLXOriginalClassificationInput : (ℕ → ℕ → Prop) → Prop :=
+fun NS =>
+  ∀ (p : ℕ),
+    Nat.Prime p →
+      ∀ (n f : ℕ),
+        0 < n →
+          p.Coprime n →
+            0 < f → NS n (p ^ f) → ∃ a e, NSDensity.FHLXInitial p a e ∧ NSDensity.FHLXDerived p (a, e) (n, f)
+inductive NSDensity.FHLXInitialFamily : ℕ → ℕ → ℕ → Prop
+number of parameters: 3
+constructors:
+NSDensity.FHLXInitialFamily.dual : ∀ {p a e : ℕ},
+  e = 1 → Nat.Prime a → 5 ≤ a → orderOf ↑p = a - 1 → NSDensity.FHLXInitialFamily p a e
+NSDensity.FHLXInitialFamily.primitive : ∀ {p a e : ℕ} (m : ℕ),
+  2 ≤ m → (p ^ e, m) ≠ (2, 2) → a = p ^ (e * m) - 1 → NSDensity.FHLXInitialFamily p a e
+NSDensity.FHLXInitialFamily.ovoid : ∀ {p a e : ℕ},
+  a = (p ^ e - 1) * (p ^ (2 * e) + 1) → NSDensity.FHLXInitialFamily p a e
+NSDensity.FHLXInitialFamily.golay_binary : ∀ {p a e : ℕ}, p = 2 → a = 23 → e = 1 → NSDensity.FHLXInitialFamily p a e
+NSDensity.FHLXInitialFamily.golay_ternary : ∀ {p a e : ℕ}, p = 3 → a = 11 → e = 1 → NSDensity.FHLXInitialFamily p a e
+NSDensity.FHLXInitialFamily.equally_spaced : ∀ {p a e : ℕ},
+  6 ≤ a → NSDensity.EquallySpaced (p ^ e) a → NSDensity.FHLXInitialFamily p a e
+inductive NSDensity.FHLXStep : ℕ → NSDensity.Pair → NSDensity.Pair → Prop
+number of parameters: 1
+constructors:
+NSDensity.FHLXStep.lift : ∀ {p n e t : ℕ},
+  0 < n → 0 < e → p.Coprime n → 0 < t → t.Coprime (orderOf (↑p ^ e)) → NSDensity.FHLXStep p (n, e) (n, e * t)
+NSDensity.FHLXStep.extension : ∀ {p n e u : ℕ},
+  0 < n → 0 < e → p.Coprime n → 0 < u → u ∣ (p ^ e - 1) / n.gcd (p ^ e - 1) → NSDensity.FHLXStep p (n, e) (n * u, e)
+NSDensity.FHLXStep.special_descent : ∀ {p n e r : ℕ},
+  4 ≤ n → 0 < e → p.Coprime n → 1 < r → r ∣ orderOf (↑p ^ e) → NSDensity.FHLXStep p (n, e * r) (n, e)
+NSDensity.FHLXStep.tensor : ∀ {p n e s : ℕ},
+  0 < n →
+    0 < e →
+      p.Coprime n →
+        1 < s →
+          p.Coprime s →
+            1 < orderOf (↑p ^ e) →
+              (orderOf (↑p ^ e)).Coprime (orderOf (↑p ^ e)) → NSDensity.FHLXStep p (n, e) (n.lcm s, e)
+def NSDensity.AbstractNonstandard : ℕ → ℕ → Prop :=
+fun n q =>
+  ∃ F fieldF,
+    Finite F ∧
+      Nat.card F = q ∧
+        ∃ C,
+          NSDensity.Concrete.irreducibleCyclicCode C ∧
+            NSDensity.Concrete.nondegenerateCode C ∧
+              ∃ σ, (∀ (c : Fin n → F), c ∈ C ↔ c ∘ ⇑σ ∈ C) ∧ ¬NSDensity.Concrete.standardPermutation q n σ
+def NSDensity.AllCodesStandardLengths : ℕ → Set ℕ :=
+fun p =>
+  {n |
+    p.Coprime n ∧
+      ∀ (f : ℕ),
+        0 < f →
+          ∀ (F : Type) (fieldF : Field F),
+            Finite F →
+              Nat.card F = p ^ f →
+                ∀ (C : Submodule F (Fin n → F)),
+                  NSDensity.Concrete.irreducibleCyclicCode C →
+                    NSDensity.Concrete.nondegenerateCode C →
+                      ∀ (σ : Equiv.Perm (Fin n)),
+                        (∀ (c : Fin n → F), c ∈ C ↔ c ∘ ⇑σ ∈ C) → NSDensity.Concrete.standardPermutation (p ^ f) n σ}
+def NSDensity.abstractRatio : ℕ → ℝ → ℝ :=
+fun q X =>
+  ↑(NSDensity.realCount {n | 0 < n ∧ q.Coprime n ∧ NSDensity.AbstractNonstandard n q} X) /
+    ↑(NSDensity.realCount {n | q.Coprime n} X)
+@NSDensity.Concrete.irreducibleCyclicCode_exists_root_model : ∀ {F : Type u_1} [inst : Field F] {n : ℕ} [Finite F]
+  (C : Submodule F (Fin n → F)),
+  NSDensity.Concrete.irreducibleCyclicCode C →
+    NSDensity.Concrete.nondegenerateCode C →
+      ∃ E fieldE,
+        ∃ (_ : Finite E), ∃ algebraFE a, orderOf a = n ∧ C = NSDensity.Concrete.functionalCodeOver fun i => a ^ ↑i
+@NSDensity.abstractNonstandard_iff_paper : ∀ {n q : ℕ},
+  0 < n → q.Coprime n → (NSDensity.AbstractNonstandard n q ↔ NSDensity.PaperNonstandard n q)
+NSDensity.abstract_density_zero : NSDensity.FHLXOriginalInput NSDensity.PaperNonstandard →
+  NSDensity.WiertelakMoreeInput →
+    ∀ {p : ℕ}, Nat.Prime p → NSDensity.DensityZero (NSDensity.ExceptionalLengths NSDensity.AbstractNonstandard p)
+NSDensity.abstract_density_limit : NSDensity.FHLXOriginalInput NSDensity.PaperNonstandard →
+  NSDensity.WiertelakMoreeInput →
+    ∀ {p : ℕ},
+      Nat.Prime p →
+        Filter.Tendsto
+          (fun X => ↑(NSDensity.realCount (NSDensity.ExceptionalLengths NSDensity.AbstractNonstandard p) X) / X)
+          Filter.atTop (nhds 0)
+NSDensity.abstract_count_isLittleO : NSDensity.FHLXOriginalInput NSDensity.PaperNonstandard →
+  NSDensity.WiertelakMoreeInput →
+    ∀ {p : ℕ},
+      Nat.Prime p →
+        (fun X =>
+            ↑(NSDensity.realCount (NSDensity.ExceptionalLengths NSDensity.AbstractNonstandard p) X)) =o[Filter.atTop]
+          fun X => X
+NSDensity.allCodesStandard_relative_density_one : NSDensity.FHLXOriginalInput NSDensity.PaperNonstandard →
+  NSDensity.WiertelakMoreeInput →
+    ∀ {p : ℕ},
+      Nat.Prime p →
+        Filter.Tendsto
+          (fun X =>
+            ↑(NSDensity.realCount (NSDensity.AllCodesStandardLengths p) X) / ↑(NSDensity.realCount {n | p.Coprime n} X))
+          Filter.atTop (nhds 1)
+@NSDensity.abstractRatio_sup_eq : ∀ {p : ℕ},
+  Nat.Prime p → ∀ (X : ℝ), ⨆ r, NSDensity.abstractRatio (p ^ ↑r) X = NSDensity.abstractRatio p X
+NSDensity.abstractRatio_sup_tendsto_zero : NSDensity.FHLXOriginalInput NSDensity.PaperNonstandard →
+  NSDensity.WiertelakMoreeInput →
+    ∀ {p : ℕ}, Nat.Prime p → Filter.Tendsto (fun X => ⨆ r, NSDensity.abstractRatio (p ^ ↑r) X) Filter.atTop (nhds 0)
+@NSDensity.Concrete.liftingRootLinearGroupEquiv : {E : Type u_1} →
+  [inst : Field E] →
+    [inst_1 : Finite E] →
+      (F K : Subfield E) →
+        F ≤ K →
+          {p e t n : ℕ} →
+            Nat.Prime p →
+              0 < e →
+                Nat.card ↥F = p ^ e →
+                  Nat.card ↥K = p ^ (e * t) →
+                    0 < n →
+                      p.Coprime n →
+                        t.Coprime (orderOf (↑p ^ e)) →
+                          {a : E} →
+                            orderOf a = n →
+                              ↥(NSDensity.columnLinearGroup fun i => NSDensity.Concrete.rootInField (↥F) a ^ ↑i) ≃*
+                                ↥(NSDensity.columnLinearGroup fun i => NSDensity.Concrete.rootInField (↥K) a ^ ↑i)
+'NSDensity.Concrete.irreducibleCyclicCode_exists_root_model' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.Concrete.mem_functionalCode_coefficient_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.Concrete.rootFunctionalCodeOver_algEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.abstractNonstandard_iff_paper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.abstract_density_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.abstract_density_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.abstract_count_isLittleO' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.allCodesStandard_relative_density_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.abstractRatio_sup_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.abstractRatio_sup_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.paperRatio_sup_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.paperRatio_sup_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.paper_nonstandard_descent_exponent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.FHLXOriginalClassificationInput.toFHLXInput' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.paper_original_nonstandard_iff_normalForm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.equallySpaced_iff_exists_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.Concrete.standardGroup_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.Concrete.standardGroup_eq_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.Concrete.nonstandardRootCode_same_order_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.Concrete.rootLinearGroupEquiv_standard_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.Concrete.lifting_permutationAutGroup_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.Concrete.liftingRootLinearGroupEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.Concrete.liftingRootLinearGroupEquiv_standard_maps_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+def NSDensity.CharacteristicStandardLengths : ℕ → Set ℕ :=
+fun p =>
+  {n |
+    p.Coprime n ∧
+      ∀ (F : Type) (fieldF : Field F),
+        Finite F →
+          CharP F p →
+            ∀ (C : Submodule F (Fin n → F)),
+              NSDensity.Concrete.irreducibleCyclicCode C →
+                NSDensity.Concrete.nondegenerateCode C →
+                  ∀ (σ : Equiv.Perm (Fin n)),
+                    (∀ (c : Fin n → F), c ∈ C ↔ c ∘ ⇑σ ∈ C) → NSDensity.Concrete.standardPermutation (Nat.card F) n σ}
+NSDensity.abstract_density_main : NSDensity.FHLXOriginalInput NSDensity.PaperNonstandard →
+  NSDensity.WiertelakMoreeInput →
+    ∀ {p : ℕ},
+      Nat.Prime p →
+        ⋃ r, NSDensity.AbstractPrimeExceptionalLengths (p ^ ↑r) = NSDensity.AbstractPrimeExceptionalLengths p ∧
+          ((fun X => ↑(NSDensity.realCount (NSDensity.AbstractPrimeExceptionalLengths p) X)) =o[Filter.atTop] fun X =>
+              X) ∧
+            Filter.Tendsto
+              (fun X =>
+                ↑(NSDensity.realCount (NSDensity.CharacteristicStandardLengths p) X) /
+                  ↑(NSDensity.realCount {n | p.Coprime n} X))
+              Filter.atTop (nhds 1)
+@NSDensity.allCodesStandardLengths_charP : ∀ {p n : ℕ},
+  n ∈ NSDensity.AllCodesStandardLengths p →
+    ∀ (F : Type) [inst : Field F] [Finite F] [CharP F p] (C : Submodule F (Fin n → F)),
+      NSDensity.Concrete.irreducibleCyclicCode C →
+        NSDensity.Concrete.nondegenerateCode C →
+          ∀ (σ : Equiv.Perm (Fin n)),
+            (∀ (c : Fin n → F), c ∈ C ↔ c ∘ ⇑σ ∈ C) → NSDensity.Concrete.standardPermutation (Nat.card F) n σ
+'NSDensity.abstract_prime_power_union_eq_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.allCodesStandardLengths_charP' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.characteristic_standard_relative_density_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.abstract_density_main' depends on axioms: [propext, Classical.choice, Quot.sound]
+@NSDensity.Concrete.nonstandardRootCode_model_independent : ∀ {E : Type u_1} {L : Type u_2} [inst : Field E]
+  [inst_1 : Field L] [Finite E] [Finite L] (F : Subfield E) (K : Subfield L) {n : ℕ} {a : E} {b : L},
+  0 < n →
+    Nat.card ↥F = Nat.card ↥K →
+      (Nat.card ↥F).Coprime n →
+        orderOf a = n →
+          orderOf b = n → (NSDensity.Concrete.nonstandardRootCode F n a ↔ NSDensity.Concrete.nonstandardRootCode K n b)
+'NSDensity.Concrete.nonstandardRootCode_model_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.codeNonstandard_iff_fixed_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.paperNonstandard_iff_fixed_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+@NSDensity.EquallySpaced.of_derived : ∀ {p a e n f : ℕ},
+  1 < p →
+    0 < e →
+      p.Coprime n →
+        NSDensity.EquallySpaced (p ^ e) a → NSDensity.Derived p (a, e) (n, f) → NSDensity.EquallySpaced (p ^ f) n
+'NSDensity.EquallySpaced.of_normalForm_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.EquallySpaced.of_derived' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.EquallySpaced.of_classificationPath' depends on axioms: [propext, Classical.choice, Quot.sound]

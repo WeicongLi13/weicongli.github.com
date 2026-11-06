@@ -1,0 +1,129 @@
+import NSDensity
+
+#print NSDensity.DensityZero
+#print NSDensity.WiertelakMoreeInput
+#print NSDensity.FHLXInput
+#print NSDensity.CodeNonstandard
+#print NSDensity.CodeNonstandardOver
+#print NSDensity.Concrete.nonstandardPair
+#print NSDensity.Concrete.nonstandardRootCode
+#print NSDensity.Concrete.relationCode
+#print NSDensity.Concrete.rootFunctionalCode
+#print NSDensity.Concrete.irreducibleCyclicCode
+#print NSDensity.Concrete.nondegenerateCode
+#print NSDensity.NonstandardCyclicCodeWitness
+#print NSDensity.Concrete.standardPermutation
+#print NSDensity.ConcreteFHLXInput
+#print NSDensity.Concrete.irreducibleCyclicIdeal
+#print NSDensity.Concrete.polynomialCyclicCode
+#print NSDensity.PaperNonstandard
+#print NSDensity.PaperNonstandardOver
+#print NSDensity.PaperFHLXInput
+#check @NSDensity.density_zero_fixed_characteristic
+#check @NSDensity.exceptional_count_le
+#check @NSDensity.density_zero_fixed_alphabet
+#check @NSDensity.standard_lengths_relative_density_one
+#check @NSDensity.codeNonstandard_descent
+#check @NSDensity.exceptionalLengths_eq_prime
+#check @NSDensity.codeNonstandard_iff_cyclicCodeWitness
+#check @NSDensity.concrete_density_zero
+#check @NSDensity.concrete_density_limit
+#check @NSDensity.concrete_count_isLittleO
+#check @NSDensity.concrete_standard_relative_density_one
+#check @NSDensity.paper_exceptionalLengths_eq_prime
+#check @NSDensity.paper_density_zero
+#check @NSDensity.paper_density_limit
+#check @NSDensity.paper_count_isLittleO
+#check @NSDensity.paper_standard_relative_density_one
+#print axioms NSDensity.density_zero_fixed_characteristic
+#print axioms NSDensity.exceptional_count_le
+#print axioms NSDensity.density_zero_fixed_alphabet
+#print axioms NSDensity.standard_lengths_relative_density_one
+#print axioms NSDensity.classification_normalForm
+#print axioms NSDensity.densityZero_equallySpaced
+#print axioms NSDensity.densityZero_otherLengths
+#print axioms NSDensity.Concrete.preservesRelations_iff_preserves_functionalCode_general
+#print axioms NSDensity.Concrete.rootFunctionalCode_cyclic
+#print axioms NSDensity.Concrete.rootFunctionalCode_separates_coordinates
+#print axioms NSDensity.Concrete.rootFunctionalCode_is_nondegenerate_irreducible
+#print axioms NSDensity.Concrete.mem_relationCode_iff_minpoly_dvd
+#print axioms NSDensity.Concrete.rootCheck_dvd_X_pow_sub_one_iff
+#print axioms NSDensity.Concrete.standardPermutation_iff_affine_automorphism
+#print axioms NSDensity.codeNonstandard_iff_cyclicCodeWitness
+#print axioms NSDensity.codeNonstandard_descent
+#print axioms NSDensity.exceptionalLengths_eq_prime
+#print axioms NSDensity.densityZero_iff_tendsto_real
+#print axioms NSDensity.densityZero_iff_isLittleO_real
+#print axioms NSDensity.concrete_density_zero
+#print axioms NSDensity.prime_field_density_zero
+#print axioms NSDensity.concrete_density_limit
+#print axioms NSDensity.concrete_count_isLittleO
+#print axioms NSDensity.concrete_standard_relative_density_one
+#print axioms NSDensity.Concrete.functionalCode_eq_traceCode
+#print axioms NSDensity.Concrete.mem_irreducibleCyclicIdeal_iff_trace_word
+#print axioms NSDensity.Concrete.polynomialCyclicCode_eq_rootFunctionalCode
+#print axioms NSDensity.Concrete.polynomialCyclicCode_eq_inverseRootTraceCode
+#print axioms NSDensity.codeNonstandard_iff_paper
+#print axioms NSDensity.paper_nonstandard_descent
+#print axioms NSDensity.paper_exceptionalLengths_eq_prime
+#print axioms NSDensity.paper_density_zero
+#print axioms NSDensity.paper_density_limit
+#print axioms NSDensity.paper_count_isLittleO
+#print axioms NSDensity.paper_standard_relative_density_one
+#print axioms NSDensity.paper_standard_prime_iff_all
+
+-- Original-source boundary and the completed arbitrary-code statements.
+#print NSDensity.FHLXOriginalInput
+#print NSDensity.FHLXOriginalClassificationInput
+#print NSDensity.FHLXInitialFamily
+#print NSDensity.FHLXStep
+#print NSDensity.AbstractNonstandard
+#print NSDensity.AllCodesStandardLengths
+#print NSDensity.abstractRatio
+#check @NSDensity.Concrete.irreducibleCyclicCode_exists_root_model
+#check @NSDensity.abstractNonstandard_iff_paper
+#check @NSDensity.abstract_density_zero
+#check @NSDensity.abstract_density_limit
+#check @NSDensity.abstract_count_isLittleO
+#check @NSDensity.allCodesStandard_relative_density_one
+#check @NSDensity.abstractRatio_sup_eq
+#check @NSDensity.abstractRatio_sup_tendsto_zero
+#check @NSDensity.Concrete.liftingRootLinearGroupEquiv
+#print axioms NSDensity.Concrete.irreducibleCyclicCode_exists_root_model
+#print axioms NSDensity.Concrete.mem_functionalCode_coefficient_image
+#print axioms NSDensity.Concrete.rootFunctionalCodeOver_algEquiv
+#print axioms NSDensity.abstractNonstandard_iff_paper
+#print axioms NSDensity.abstract_density_zero
+#print axioms NSDensity.abstract_density_limit
+#print axioms NSDensity.abstract_count_isLittleO
+#print axioms NSDensity.allCodesStandard_relative_density_one
+#print axioms NSDensity.abstractRatio_sup_eq
+#print axioms NSDensity.abstractRatio_sup_tendsto_zero
+#print axioms NSDensity.paperRatio_sup_eq
+#print axioms NSDensity.paperRatio_sup_tendsto_zero
+#print axioms NSDensity.paper_nonstandard_descent_exponent
+#print axioms NSDensity.FHLXOriginalClassificationInput.toFHLXInput
+#print axioms NSDensity.paper_original_nonstandard_iff_normalForm
+#print axioms NSDensity.equallySpaced_iff_exists_witness
+#print axioms NSDensity.Concrete.standardGroup_card
+#print axioms NSDensity.Concrete.standardGroup_eq_closure
+#print axioms NSDensity.Concrete.nonstandardRootCode_same_order_iff
+#print axioms NSDensity.Concrete.rootLinearGroupEquiv_standard_iff
+#print axioms NSDensity.Concrete.lifting_permutationAutGroup_eq
+#print axioms NSDensity.Concrete.liftingRootLinearGroupEquiv
+#print axioms NSDensity.Concrete.liftingRootLinearGroupEquiv_standard_maps_iff
+#print NSDensity.CharacteristicStandardLengths
+#check @NSDensity.abstract_density_main
+#check @NSDensity.allCodesStandardLengths_charP
+#print axioms NSDensity.abstract_prime_power_union_eq_prime
+#print axioms NSDensity.allCodesStandardLengths_charP
+#print axioms NSDensity.characteristic_standard_relative_density_one
+#print axioms NSDensity.abstract_density_main
+#check @NSDensity.Concrete.nonstandardRootCode_model_independent
+#print axioms NSDensity.Concrete.nonstandardRootCode_model_independent
+#print axioms NSDensity.codeNonstandard_iff_fixed_root
+#print axioms NSDensity.paperNonstandard_iff_fixed_root
+#check @NSDensity.EquallySpaced.of_derived
+#print axioms NSDensity.EquallySpaced.of_normalForm_endpoint
+#print axioms NSDensity.EquallySpaced.of_derived
+#print axioms NSDensity.EquallySpaced.of_classificationPath

@@ -1,0 +1,11 @@
+.lake/
+.dependencies/
+*.olean
+*.ilean
+*.trace
+*.aux
+*.out
+*.toc
+*.synctex.gz
+*.log
+!verification/*.log

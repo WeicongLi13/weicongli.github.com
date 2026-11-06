@@ -1,0 +1,167 @@
+{
+  "review_date": "2026-11-07",
+  "status": "passed_with_explicit_external_inputs",
+  "manuscript_path": "paper/ns-density-paper-arx-subm-2026-10-31.tex",
+  "manuscript_sha256": "201a2a28514e34b8a43804a997e97f65ca75dcdc7d9fe8e639e0ad68856864bf",
+  "main_theorem": "NSDensity.abstract_density_main",
+  "external_inputs": [
+    "FHLXOriginalInput PaperNonstandard",
+    "WiertelakMoreeInput"
+  ],
+  "original_full_build_date": "2026-10-28",
+  "original_proof_source_count": 55,
+  "original_sources_unchanged": true,
+  "original_source_manifest_sha256": "18bbdafc2c3a1f190d7c57206f3aa94b7b32f64d7feced50177d969cf26f95cc",
+  "original_build_log_sha256": "666ee6df5d1fdfe801f26dc3df810e806b90cd078827f861d438a1c413482451",
+  "fresh_full_build_performed": false,
+  "fresh_submission_check": {
+    "source": "SubmissionAudit.lean",
+    "source_sha256": "81e07e25b34a8707d122854d341248b068f904f9beb53e6c4ed7dae038de2901",
+    "log": "verification/submission-endpoints-20261107.log",
+    "log_sha256": "304d7b01c6654cbd3bb60433139da7257bc1ecd9f01d7b57fcbf8cab7ae7ccb8",
+    "lean_version": "4.35.0",
+    "compiler_exit_code": 0,
+    "errors": 0,
+    "warnings": 0,
+    "axiom_dependencies": {
+      "NSDensity.submission_derived_length_iff": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "NSDensity.submission_normalLengths_realized": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "NSDensity.abstract_density_main": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "NSDensity.abstractRatio_sup_eq": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "NSDensity.abstractRatio_sup_tendsto_zero": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    }
+  },
+  "proof_placeholders_or_custom_axioms": [],
+  "correspondence": [
+    {
+      "manuscript_statement": "Theorem 1.1",
+      "lean_counterpart": "`abstract_density_main`"
+    },
+    {
+      "manuscript_statement": "Corollary 1.2",
+      "lean_counterpart": "`abstractRatio_sup_eq`, `abstractRatio_sup_tendsto_zero`"
+    },
+    {
+      "manuscript_statement": "Proposition 2.1",
+      "lean_counterpart": "`standardGroup_card`, `standardGroup_eq_closure`, `rootLinearGroupEquiv_permutationAutGroup`, `rootLinearGroupEquiv_standard_iff`"
+    },
+    {
+      "manuscript_statement": "Theorem 2.2",
+      "lean_counterpart": "Explicit `FHLXOriginalInput`; original-path equivalence in `FHLXPaper.lean`"
+    },
+    {
+      "manuscript_statement": "Definition 3.1",
+      "lean_counterpart": "`Derived`, the reflexive transitive closure of `Step`"
+    },
+    {
+      "manuscript_statement": "Proposition 3.2",
+      "lean_counterpart": "Internally proved unrestricted descent; the permitted FHLX preservation results; `normalForm_preserves`"
+    },
+    {
+      "manuscript_statement": "Corollary 3.3",
+      "lean_counterpart": "`abstract_prime_power_union_eq_prime`"
+    },
+    {
+      "manuscript_statement": "Lemma 3.4",
+      "lean_counterpart": "`extension_iff_mul_dvd_lcm`, `div_gcd_dvd_div_gcd`, `order_extension`, `order_power`; the lcm identity follows from the extension divisibilities"
+    },
+    {
+      "manuscript_statement": "Proposition 3.5",
+      "lean_counterpart": "`tensor_derived`, `paper_original_nonstandard_iff_derived`"
+    },
+    {
+      "manuscript_statement": "Theorem 3.6",
+      "lean_counterpart": "`derived_iff_normalForm`"
+    },
+    {
+      "manuscript_statement": "Corollary 3.7",
+      "lean_counterpart": "`submission_derived_length_iff`, `submission_normalLengths_realized`"
+    },
+    {
+      "manuscript_statement": "Lemma 4.1",
+      "lean_counterpart": "`order_dvd_of_modulus_dvd`, `order_le_quotient_mul`"
+    },
+    {
+      "manuscript_statement": "Proposition 4.2",
+      "lean_counterpart": "`EquallySpaced.lift`, `.extension`, `.descent`, `.of_derived`, `.of_derived_length_ge_six`"
+    },
+    {
+      "manuscript_statement": "Theorem 5.1",
+      "lean_counterpart": "External `WiertelakMoreeInput`, using only the reciprocal-divergence consequence"
+    },
+    {
+      "manuscript_statement": "Lemma 5.2",
+      "lean_counterpart": "`densityZero_avoids`, `densityZero_atMostOne`"
+    },
+    {
+      "manuscript_statement": "Lemma 5.3",
+      "lean_counterpart": "`densityZero_iUnion_of_reciprocalTails`"
+    },
+    {
+      "manuscript_statement": "Proposition 6.1",
+      "lean_counterpart": "`densityZero_normalLengths`"
+    },
+    {
+      "manuscript_statement": "Corollary 6.2",
+      "lean_counterpart": "`densityZero_golayLengths`"
+    },
+    {
+      "manuscript_statement": "Proposition 6.3",
+      "lean_counterpart": "`densityZero_dualRepetitionLengths`"
+    },
+    {
+      "manuscript_statement": "Proposition 6.4",
+      "lean_counterpart": "`densityZero_primitiveLengths`, `densityZero_ovoidLengths`"
+    },
+    {
+      "manuscript_statement": "Lemma 6.5",
+      "lean_counterpart": "`equallySpaced_iff_exists_witness`, `ESWitness.square_dvd`"
+    },
+    {
+      "manuscript_statement": "Lemma 6.6",
+      "lean_counterpart": "`densityZero_ESFixed`"
+    },
+    {
+      "manuscript_statement": "Theorem 6.7",
+      "lean_counterpart": "`densityZero_equallySpaced`, `reciprocalTails_powerGrid`"
+    }
+  ],
+  "complete_sentence_by_sentence_formalization": false,
+  "proof_route_differences": [
+    "The fixed-pair sieve uses a prime divisor of the degree in Lean and the whole degree in the manuscript.",
+    "The normal form and equally-spaced extension closure use different valid proof presentations.",
+    "Some exact displayed constants, exponential estimates, and the precise coprime-count asymptotic are replaced by sufficient internally proved bounds."
+  ],
+  "outside_literal_formalization": [
+    "The two external results themselves and the derivation of reciprocal divergence from prime density.",
+    "Explanatory degenerate-code/direct-sum passages and degree-one/length-four standardness remarks.",
+    "The full textbook dictionary for reducible cyclic codes.",
+    "Literature attribution and comparisons."
+  ],
+  "manuscript_modified": false,
+  "publication_destination": {
+    "repository": "WeicongLi13/weicongli.github.com",
+    "branch": "main",
+    "directory": "ns-density-lean"
+  }
+}

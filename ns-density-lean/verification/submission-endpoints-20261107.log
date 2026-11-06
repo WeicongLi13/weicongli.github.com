@@ -1,0 +1,22 @@
+@submission_derived_length_iff : ∀ {p n e N : ℕ},
+  Nat.Prime p → 0 < n → 0 < e → ((∃ f, 0 < f ∧ Derived p (n, e) (N, f)) ↔ N ∈ NormalLengths n (p ^ e))
+@submission_normalLengths_realized : ∀ {p n e N : ℕ},
+  Nat.Prime p → 0 < n → 0 < e → N ∈ NormalLengths n (p ^ e) → Derived p (n, e) (N, e) ∧ Derived p (n, e) (N, 1)
+abstract_density_main : FHLXOriginalInput PaperNonstandard →
+  WiertelakMoreeInput →
+    ∀ {p : ℕ},
+      Nat.Prime p →
+        ⋃ r, AbstractPrimeExceptionalLengths (p ^ ↑r) = AbstractPrimeExceptionalLengths p ∧
+          ((fun X => ↑(realCount (AbstractPrimeExceptionalLengths p) X)) =o[Filter.atTop] fun X => X) ∧
+            Filter.Tendsto
+              (fun X => ↑(realCount (CharacteristicStandardLengths p) X) / ↑(realCount {n | p.Coprime n} X))
+              Filter.atTop (nhds 1)
+@abstractRatio_sup_eq : ∀ {p : ℕ}, Nat.Prime p → ∀ (X : ℝ), ⨆ r, abstractRatio (p ^ ↑r) X = abstractRatio p X
+abstractRatio_sup_tendsto_zero : FHLXOriginalInput PaperNonstandard →
+  WiertelakMoreeInput →
+    ∀ {p : ℕ}, Nat.Prime p → Filter.Tendsto (fun X => ⨆ r, abstractRatio (p ^ ↑r) X) Filter.atTop (nhds 0)
+'NSDensity.submission_derived_length_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.submission_normalLengths_realized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.abstract_density_main' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.abstractRatio_sup_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSDensity.abstractRatio_sup_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

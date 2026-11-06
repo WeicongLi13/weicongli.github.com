@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-10-28T17:18:29.131283+08:00",
+  "status": "passed",
+  "source_recheck": "passed",
+  "source_file_count": 55,
+  "source_hashes_match": true,
+  "all_project_proof_sources_listed_and_compiled": true,
+  "source_scope": "NSDensity/**/*.lean, NSDensity.lean, and Audit.lean; dependency preparation utilities in Tools are not proof sources.",
+  "proof_placeholders_or_custom_axioms": [],
+  "global_axiom_dependencies": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "warnings": [],
+  "external_inputs_recorded_in_manifest": [
+    "PaperOriginalFHLXInput = FHLXOriginalInput PaperNonstandard",
+    "WiertelakMoreeInput"
+  ],
+  "build_log_binding": "Sealed after the tool reported Check-All.ps1 process exit code 0 for this fresh 55-source run. The running checker predated the metadata-only automatic log-binding patch.",
+  "public_endpoint_axioms": {
+    "NSDensity.Concrete.irreducibleCyclicCode_exists_root_model": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NSDensity.abstractRatio_sup_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NSDensity.abstractRatio_sup_tendsto_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NSDensity.abstract_density_main": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "audit_scope": "Automated source, build-log, and axiom checks only. Manuscript correspondence and external-source scope require a separate human-readable review bound to the hashes below. Compilation does not certify that the manuscript is complete or that its definitions match Lean.",
+  "manuscript_sha256": "433e2bdc0162c8a888fbecda4e35de3bc573979117fe9479f8085f7c06ff0a5f",
+  "source_manifest_sha256": "18bbdafc2c3a1f190d7c57206f3aa94b7b32f64d7feced50177d969cf26f95cc",
+  "build_log_sha256": "666ee6df5d1fdfe801f26dc3df810e806b90cd078827f861d438a1c413482451"
+}

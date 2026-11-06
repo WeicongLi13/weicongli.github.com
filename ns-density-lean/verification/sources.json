@@ -1,0 +1,237 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-10-28T17:18:17.3012059+08:00",
+  "lean": "leanprover/lean4:v4.35.0",
+  "mathlib": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "sourceFileCount": 55,
+  "externalInputs": [
+    "PaperOriginalFHLXInput = FHLXOriginalInput PaperNonstandard",
+    "WiertelakMoreeInput"
+  ],
+  "sources": [
+    {
+      "file": "NSDensity/Basic.lean",
+      "sha256": "0321014DB989D1B3C79AF628DD04DC777B4FE818A5CA081E8CB9070698F030D5"
+    },
+    {
+      "file": "NSDensity/Arithmetic.lean",
+      "sha256": "9E73CDCCDAC03056D7C78FF248BDCEDDA4EA036E8E197C90FCDD534EC273747E"
+    },
+    {
+      "file": "NSDensity/Sieve.lean",
+      "sha256": "712D693DDAA261086EB351AD8F3E3B70EAF638ED91F1E506BB83382D47C7506A"
+    },
+    {
+      "file": "NSDensity/Tails.lean",
+      "sha256": "B4E9306B753D0046923F7C0742B6437208A9A3F0CB00DD3885BBACB9F0FBD582"
+    },
+    {
+      "file": "NSDensity/Inputs.lean",
+      "sha256": "E313A2EDB52CFCA6AB43627E9B563A7D7D311C73A1A478E583B503DD3B791A43"
+    },
+    {
+      "file": "NSDensity/Constructions.lean",
+      "sha256": "62BDAA43337D9B3716AB7880B7F8E9D7F70E4EC4B69B7AF0A62BE05395C83F5A"
+    },
+    {
+      "file": "NSDensity/SquareTails.lean",
+      "sha256": "28BA43226BEE35B3E9022862A7EFF2403D9ABF2B4BD3F521D81F71E46F701883"
+    },
+    {
+      "file": "NSDensity/FixedPair.lean",
+      "sha256": "C69BFE7EC9E91AC4E32677A67205D985C22695BA8E0B7747B047270479493585"
+    },
+    {
+      "file": "NSDensity/FourFamilies.lean",
+      "sha256": "BC990F6B2D94A73BBB1D1F24467A4801B98C5104BBC5771BE2B298AA07FE3064"
+    },
+    {
+      "file": "NSDensity/ESArithmetic.lean",
+      "sha256": "2B4F3CF435ACE0AFA2F37F3C47E5B254DD2F669D2FFCE3A1ED268FC62633969D"
+    },
+    {
+      "file": "NSDensity/ESWitnessComplete.lean",
+      "sha256": "E460A0645174C8C3E1611275E41D73C88781B0397C297C2C1E23FE6C7BE67521"
+    },
+    {
+      "file": "NSDensity/ESFixed.lean",
+      "sha256": "01414D5892C580C2271D8FF9181C227CF7DEACD74F096AFA45C72E61DA82E79E"
+    },
+    {
+      "file": "NSDensity/ESDensity.lean",
+      "sha256": "010D850AADF0E0149E71363E04DB84C544F759212DE545239B286C075368B213"
+    },
+    {
+      "file": "NSDensity/Classification.lean",
+      "sha256": "D59A072182406ECAC71B1DE3C90EF3782AD42EB59A3C96E36ABA7381A86274C7"
+    },
+    {
+      "file": "NSDensity/ESClosure.lean",
+      "sha256": "F63DC1F9439F9A0B78FA959D686B226BFB02354AE175FE9F66FCBCCF1022AE98"
+    },
+    {
+      "file": "NSDensity/FHLXOriginal.lean",
+      "sha256": "383437DF91775D10638C7FBE1FA7FBBD2E44D0DDF67E7571BD61E9972E6B0332"
+    },
+    {
+      "file": "NSDensity/Reduction.lean",
+      "sha256": "024E23A3469202ABF93FC0F5D06C18184C7CFDBB0560EC8182EDD47DB920F2AF"
+    },
+    {
+      "file": "NSDensity/Cover.lean",
+      "sha256": "D482913C2AE762C5593A323201000F6EF5532801853D32816BBC2AE799ED083D"
+    },
+    {
+      "file": "NSDensity/Relative.lean",
+      "sha256": "28BBC7BA6364414575138D6790EEB61985CC89D819E8ACC072DD93F5C67D5C1B"
+    },
+    {
+      "file": "NSDensity/Main.lean",
+      "sha256": "B07D18FF4146B33EF7D927C8643ADE38CF477B6AC2BBA62EFC188696DF9A3311"
+    },
+    {
+      "file": "NSDensity/ConcreteDescent.lean",
+      "sha256": "D7D52AB1F5C1E610E070EAF25D32C087C07E634EA4AE8C16F7B3B2E5C141BF85"
+    },
+    {
+      "file": "NSDensity/CodeModelColumns.lean",
+      "sha256": "3168D5175310632AD055E1C9C1477104955567146135726E719569B251726397"
+    },
+    {
+      "file": "NSDensity/CodeModelAffine.lean",
+      "sha256": "9C6043DA4D1E938FE3D60067C518C1F3EA68BC7E842A69F3CC21A775B909ED7B"
+    },
+    {
+      "file": "NSDensity/CodeModelStandard.lean",
+      "sha256": "8901F707A114F21C3D69B0A3E7E44258293DF9E01F9BA5016218AD39DFD773BA"
+    },
+    {
+      "file": "NSDensity/CodeModelGenerated.lean",
+      "sha256": "F452B2E20A028A91E4CA6EF90F0B97CC839BE922068BDA568991258FD13618A0"
+    },
+    {
+      "file": "NSDensity/StandardGroup.lean",
+      "sha256": "03DFC53546BBEF9E9988EE6BAFEA5D397AD642B1B2B5D3F8C4243ED946D6BC28"
+    },
+    {
+      "file": "NSDensity/CodeLinearGroup.lean",
+      "sha256": "077F5CD2A5DE521B79FBD984F062399E9D3B3591575D47700C5C83217F9A47E6"
+    },
+    {
+      "file": "NSDensity/CodeLifting.lean",
+      "sha256": "894AA181AEACD0D9AD6514EC0002A7727F934724D13FFF9F52E03DA164FFBD9D"
+    },
+    {
+      "file": "NSDensity/ConcreteDuality.lean",
+      "sha256": "1223E47F5DAE8AF8E7E0E14D5D224BBFA84BF9207A8BB35323E5934BB74D61BD"
+    },
+    {
+      "file": "NSDensity/ConcreteCyclic.lean",
+      "sha256": "D04265AE7DBAAAC0E97614E35917511E3077C98C4F0B068FDEFA3861C6118CED"
+    },
+    {
+      "file": "NSDensity/ConcreteIrreducible.lean",
+      "sha256": "6C49ADA47387509D4A89C9D1991668ABFC1D2808EA48664FD90EF6D60B94C4CF"
+    },
+    {
+      "file": "NSDensity/AbstractRepresentation.lean",
+      "sha256": "F823A3FCD28CE4EA49C991834C69E8BCFF92F7010BB4524B7683DD7232008B78"
+    },
+    {
+      "file": "NSDensity/CodePolynomial.lean",
+      "sha256": "7276DECFF4A82287DFA58AFB0CC788D1A3D7DE65E8EB17CEAA3B170EBB0FB3F7"
+    },
+    {
+      "file": "NSDensity/CodeTrace.lean",
+      "sha256": "52965A87760D0C89B7CFD173A44B7B1D34DF630DEB711A4FB8F860074CF39E6C"
+    },
+    {
+      "file": "NSDensity/CodeMinimalIdeal.lean",
+      "sha256": "967CBA13172921A7250EAFC7CC1F0E3D728A98901B3F9B83370A12C3E1A51DA6"
+    },
+    {
+      "file": "NSDensity/CodeWordQuotient.lean",
+      "sha256": "DAAD647A64BF6C209D311A464D6EE1B1EC5F57172E3F9C82FE4836C1C4F1EEAE"
+    },
+    {
+      "file": "NSDensity/CodeIdeal.lean",
+      "sha256": "4658254331F20DEA8F0DD918274C299F417D0F4C7C003CD29BB5872FAD3B46D1"
+    },
+    {
+      "file": "NSDensity/ConcretePairs.lean",
+      "sha256": "70C129806938F78FA28FEC88DC4A84B65CBB7E0EEB2447E0F0ED829E4C4CEC41"
+    },
+    {
+      "file": "NSDensity/CodeSemantics.lean",
+      "sha256": "9F187B6EB0BC4410D74BD2945220581ED53A6086C8B669825ADF1EB801DB36C2"
+    },
+    {
+      "file": "NSDensity/CodeFieldTransport.lean",
+      "sha256": "3E02BD864419508262A005B459595ECA7534AAEEEBB4F8DF1DF68E08F7012ABB"
+    },
+    {
+      "file": "NSDensity/RealDensity.lean",
+      "sha256": "A00E8C5B04C5A2922A55E863A883FEFDB1BCDF05226C647168D5EB499B17C4D9"
+    },
+    {
+      "file": "NSDensity/LittleO.lean",
+      "sha256": "50A2310FDCAF70C56B519E6787FE32B63589FB62E6BD5950E10FF46739A5CDFA"
+    },
+    {
+      "file": "NSDensity/MainReal.lean",
+      "sha256": "76F6D8708F84E2578F62FC33BFF05459D14A6C5161E9E9AB5701B0892E2ECBD0"
+    },
+    {
+      "file": "NSDensity/ConcreteMain.lean",
+      "sha256": "CF662B161441052AAF33BAF90BB908406CAB5966EA4D088AA61223E1C72B4002"
+    },
+    {
+      "file": "NSDensity/PaperPairs.lean",
+      "sha256": "6ED170EA9ABB6AF62DA90F00821715C0FE8FF79E70090FED52BEB32BC3747921"
+    },
+    {
+      "file": "NSDensity/FieldModelIndependence.lean",
+      "sha256": "0B52D15CADE508047ADD8DE4B2C947E8F7594F4AF9956736FDBBDA689470678F"
+    },
+    {
+      "file": "NSDensity/AlphabetDescent.lean",
+      "sha256": "A58AFACB7378B33AD6BE07AAA31CA3EEE5AD549E4EA820189063CC11D56E5EC7"
+    },
+    {
+      "file": "NSDensity/AbstractCodes.lean",
+      "sha256": "E611B50F36EFBAAE279B0570147479835B702C26F59294CA79133CDB82F75A98"
+    },
+    {
+      "file": "NSDensity/PaperMain.lean",
+      "sha256": "61F5ED5D047F01C2104191EF96CF5DDCEA627F3021B150AC920DB6010516F731"
+    },
+    {
+      "file": "NSDensity/PaperCorollary.lean",
+      "sha256": "61E68743C11A1AA33F3F5095A548AF7F8D47F6DD5D360D084F4E443CC9CD259D"
+    },
+    {
+      "file": "NSDensity/FHLXPaper.lean",
+      "sha256": "3C0FD490144EFFAA0487E3C7420207E526D0F23851FAFD1BB83CA1F5CEED3EC8"
+    },
+    {
+      "file": "NSDensity/AbstractMain.lean",
+      "sha256": "DB4F7BABA74B6C72450250FC632FFA9A7EC8B686AA3C991B2213C09EED285071"
+    },
+    {
+      "file": "NSDensity/AbstractCharacteristic.lean",
+      "sha256": "97D736A85FFE063FA0663A77141D9A6E861A3B1ECD5EBD17F644FE8E15B14A27"
+    },
+    {
+      "file": "NSDensity.lean",
+      "sha256": "5A24C9131862264D6B07C980FCF1238371885AE0F07365444BDC47843848DD40"
+    },
+    {
+      "file": "Audit.lean",
+      "sha256": "E39D09AC23F5459A4518076A51348F6A7AC83B5AB2E4CD95B555F440FAF253D6"
+    }
+  ],
+  "buildLogSha256": "666EE6DF5D1FDFE801F26DC3DF810E806B90CD078827F861D438A1C413482451",
+  "buildLogBinding": "Sealed after the tool reported Check-All.ps1 process exit code 0 for this fresh 55-source run. The running checker predated the metadata-only automatic log-binding patch.",
+  "buildProcessExitCode": 0,
+  "executedCheckerSha256": "64B17980769FE18EB90C3B64644BAF58F2E370FC938183B6C7043A051F520EE9"
+}
