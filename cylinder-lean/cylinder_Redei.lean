@@ -73,8 +73,8 @@ Coordinate models and choices of representatives are explained in their modules.
 Manuscript SHA-256: 73a7eb8e529123aaf37ce139248ca5847ec3e1ec9061241e022a9ea7b47f8b2e.
 To reproduce with the pinned toolchain and dependencies:
   lake exe cache get
-  lake build FinalFinal
-  lake env lean FinalFinalAudit.lean
+  lake build cylinder_Redei
+  lake env lean cylinder_RedeiAudit.lean
 -/
 
 -- Theorem 1.1 (thm:main).

@@ -1,4 +1,4 @@
-import FinalFinal
+import cylinder_Redei
 import Lean.Util.CollectAxioms
 
 /-! Audit every imported declaration in the Cylinder namespace, including

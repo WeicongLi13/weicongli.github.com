@@ -1,12 +1,12 @@
 name = "cylinder_validation"
 version = "0.1.0"
-defaultTargets = ["FinalFinal"]
+defaultTargets = ["cylinder_Redei"]
 
 [[lean_lib]]
 name = "Cylinder"
 
 [[lean_lib]]
-name = "FinalFinal"
+name = "cylinder_Redei"
 
 [[require]]
 name = "mathlib"
