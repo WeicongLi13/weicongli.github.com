@@ -55,6 +55,16 @@ import Cylinder.FinalFactorFourier
 import Cylinder.FinalFirstMoment
 import Cylinder.RedeiInterpolation
 import Cylinder.RedeiFactorPlaneCounts
+import Cylinder.ProjectiveCylinderTheorem
+import Cylinder.ArbitraryProjectionModel
+import Cylinder.ProjectionTransportVandermonde
+import Cylinder.ManuscriptProjectionBounds
+import Cylinder.ManuscriptExceptionalDirections
+import Cylinder.ArbitraryMoments
+import Cylinder.ArbitraryMomentPrescribed
+import Cylinder.MomentProductCoordinates
+import Cylinder.MomentProductActual
+import Cylinder.ManuscriptMomentTheorems
 
 /-! Entry points corresponding to the numbered results of finalfinal.tex.
 This file imports only the manuscript's proof dependency closure.
@@ -69,6 +79,10 @@ To reproduce with the pinned toolchain and dependencies:
 
 -- Theorem 1.1 (thm:main).
 #check Cylinder.MainTheorem.cylinder_of_plane_divisibility
+-- The unnumbered projective form following Theorem 1.1: arbitrary original
+-- projective set and infinity plane, and actual concurrent projective lines.
+#check Cylinder.ProjectiveSetChart.inverseEmbed_chartSet
+#check Cylinder.ProjectiveCylinderTheorem.projective_strongCylinder
 -- Theorem 1.2 (thm:redei).
 #check Cylinder.Redei.coordinate_factorization
 #check Cylinder.Redei.redei_factorization
@@ -124,18 +138,39 @@ To reproduce with the pinned toolchain and dependencies:
 -- Lemma 4.7 (lem:polar).
 #check Cylinder.FrobeniusPolarBound.prime_field_card_le_half
 -- Lemma 4.8 (lem:bootstrap).
+#check Cylinder.ProjectionTransportVandermonde.ray_card_lower_bound
+#check Cylinder.ArbitraryProjectionModel.actual_unique_intersection
+#check Cylinder.ArbitraryProjectionModel.planeSetEquiv
+#check Cylinder.ArbitraryProjectionModel.planeRay_card
+#check Cylinder.ArbitraryProjectionModel.planeEquivForChart_map
+#check Cylinder.ArbitraryProjectionModel.exists_actual_model
 #check Cylinder.ProjectiveVandermonde.ray_card_lower_bound
 -- Proposition 4.9 (prop:simple).
 #check Cylinder.SimpleBlackWeights.simple_black_points
 -- Proposition 4.10 (prop:exactmoments).
+#check Cylinder.ManuscriptMomentTheorems.exact_and_global_moments
+#check Cylinder.ManuscriptMomentTheorems.all_moment_relations
+#check Cylinder.ArbitraryMoments.exact_moments
+#check Cylinder.ArbitraryMoments.first_moment_relation
+#check Cylinder.ArbitraryMoments.evaluation_relation
+#check Cylinder.ArbitraryMoments.all_moment_relations_over_field
+#check Cylinder.ArbitraryMomentPrescribed.all_moment_relations
+#check Cylinder.ArbitraryMoments.prescribed_coordinates
+#check Cylinder.ArbitraryMoments.prescribed_representatives
+#check Cylinder.MomentProductCoordinates.product_identity_iff
+#check Cylinder.MomentProductCoordinates.power_identity_iff
+#check Cylinder.MomentProductCoordinates.white_factor
 #check Cylinder.ExactRayMomentsTheorem.exists_product_exact_moments
 #check Cylinder.ExactRayMomentsTheorem.weight_one_full_support_direction_relation
 #check Cylinder.ExactRayMomentsSupportedProduct.supported_balanced_product_exact_moments
 -- Corollary 4.11 (cor:excess).
+#check Cylinder.ManuscriptProjectionBounds.excess
 #check Cylinder.DirectionExcess.direction_excess_bounds
 -- Proposition 4.12 (prop:window).
+#check Cylinder.ManuscriptProjectionBounds.window
 #check Cylinder.DirectionCurveProposition.direction_curve
 -- Lemma 4.13 (lem:window-components).
+#check Cylinder.ManuscriptProjectionBounds.components
 #check Cylinder.DirectionCurveProposition.direction_curve_with_components
 #check Cylinder.MinimumEquationAbsoluteFactors.factors_absolutely_irreducible
 #check Cylinder.MinimumEquationReduced.squarefree_of_initialDegree
@@ -143,6 +178,9 @@ To reproduce with the pinned toolchain and dependencies:
 #check Cylinder.DirectionCurveComponentBounds.component_bounds
 
 -- Theorem 5.1 (thm:globalmoments).
+#check Cylinder.ManuscriptMomentTheorems.exact_and_global_moments
+#check Cylinder.ArbitraryMoments.global_moments_unique
+#check Cylinder.ArbitraryMoments.global_moments_reindexed
 #check Cylinder.FinalGlobalMoments.global_moments_unique_prime
 #check Cylinder.FinalGlobalMoments.global_moments
 -- Proposition 5.2 (prop:associatedgraded).
@@ -167,6 +205,9 @@ To reproduce with the pinned toolchain and dependencies:
 -- Lemma 5.9 (lem:numeric).
 #check Cylinder.Numerical.numerical_obstruction
 -- Proposition 5.10 (prop:componentmoments).
+#check Cylinder.ManuscriptMomentTheorems.component_moments
+#check Cylinder.ArbitraryMoments.component_moments_over_field
+#check Cylinder.ArbitraryMomentPrescribed.component_moments
 #check Cylinder.ComponentInterpolationAll.exists_actual_component_forms
 #check Cylinder.ComponentInterpolation.component_interpolation_given_residues
 -- Lemma 5.11 (lem:intersectionindependence).
@@ -179,6 +220,8 @@ To reproduce with the pinned toolchain and dependencies:
 -- Proposition 6.3 (prop:noquadric).
 #check Cylinder.FinalConsequences.quadric_vanishing_implies_zero
 -- Lemma 6.4 (lem:exceptionindependence).
+#check Cylinder.ManuscriptExceptionalDirections.independent
+#check Cylinder.ManuscriptExceptionalDirections.relation_space_eq_bot
 #check Cylinder.FinalExceptionalDirections.exceptional_directions_independent
 #check Cylinder.FinalExceptionalDirections.exceptional_direction_relation_space_eq_bot
 -- Proposition 6.5 (prop:liftquadric).
